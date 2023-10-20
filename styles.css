@@ -1,0 +1,53 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #222;
+  background-image: url(https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?ixid=2yJhcHBfaWQiOjEyMDd9&w=1500&dpr=2);
+  font-size: 120%;
+}
+
+.card {
+  background: #000000d0;
+  color: #ffff;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  background: #7c7c7c2b;
+  color: #ffffff;
+  height: 44px;
+  width: 44px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.search-bar {
+  border: none;
+  outline: none;
+  padding: .4em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100% - 100px);
+}
