@@ -56,6 +56,9 @@ button:hover {
   background: #c4b7b76b;
 }
 
+.search-bar:hover {
+  background: #c4b7b76b;
+}
 h1.temp{
   margin: 0;
   margin-bottom: 0.4em;
